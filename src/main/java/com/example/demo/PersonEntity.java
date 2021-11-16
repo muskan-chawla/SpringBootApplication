@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import lombok.Builder;
 import lombok.Data;
 import lombok.Value;
 import org.bson.types.ObjectId;
@@ -8,6 +9,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document("person")
 @Data
+
+
 public class PersonEntity {
     int age;
     String name;

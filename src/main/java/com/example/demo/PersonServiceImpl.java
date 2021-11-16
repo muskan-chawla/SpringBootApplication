@@ -48,8 +48,8 @@ public class PersonServiceImpl implements PersonService {
         Optional<PersonEntity> person = personRepository.findById(personPutRequest.getId());
         if (person.isPresent()) {
             PersonEntity personFromdb = person.get();
-            personFromdb.setName(personPutRequest.name);
-            personFromdb.setAge(personPutRequest.age);
+            personFromdb.setName(personPutRequest.getName());
+            personFromdb.setAge(personPutRequest.getAge());
             PersonEntity savedPerson = personRepository.save(personFromdb);
             personResponse.setName(savedPerson.getName());
             personResponse.setAge(savedPerson.getAge());

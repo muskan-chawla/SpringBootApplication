@@ -1,6 +1,7 @@
 
 package com.example.demo;
 
+import lombok.Builder;
 import lombok.Data;
 import org.bson.types.ObjectId;
 
@@ -9,6 +10,7 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 //@Slf4j
 @Data
+
 public class PersonRequest {
 
     @NotNull

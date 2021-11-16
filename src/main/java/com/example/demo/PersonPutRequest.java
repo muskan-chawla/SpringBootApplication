@@ -17,6 +17,10 @@ public class PersonPutRequest {
 
     ObjectId id;
 
+    public PersonPutRequest() {
+
+    }
+
 
     public int getAge() {
         return age;

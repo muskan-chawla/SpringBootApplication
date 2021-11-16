@@ -25,7 +25,7 @@ dependencies {
 	implementation 'io.openliberty.features:com.ibm.websphere.appserver.jaxrsDefaultExceptionMapper-1.0:21.0.0.9'
 	implementation'org.junit.jupiter:junit-jupiter:5.6.2'
 	implementation 'org.jetbrains:annotations:20.1.0'
-
+	
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 
